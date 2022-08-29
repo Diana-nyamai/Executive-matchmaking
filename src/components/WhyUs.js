@@ -13,7 +13,7 @@ function WhyUs() {
         },
         {
             pic: '../secure.png',
-            title: 'secure'
+            title: 'securey'
         }
     ]
   return (
