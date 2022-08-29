@@ -3,6 +3,9 @@ import { Routes, Route} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import About from './pages/About';
+import Membership from './pages/Membership';
+import Process from './pages/Process';
 
 function App() {
   return (
@@ -10,9 +13,12 @@ function App() {
     <NavBar/>
     {/* routing of different pages */}
      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/About" exact element={<About />} />
+        <Route path="/Membership" exact element={<Membership />} />
+        <Route path="/Process" exact element={<Process />} />
+        <Route path="/contact" exact element={<Contact />} />
+    </Routes>
    </div>
   );
 }
