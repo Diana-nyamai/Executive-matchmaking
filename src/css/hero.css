@@ -1,5 +1,17 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url(../../public/hero.jpg); */
+    background: #0f0101;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
 h2{
     position: relative;
+    top: -90px;
     color: #0f0101;
     font-size: 7vw;
     -webkit-text-stroke:0.05vw #7c5d70;
@@ -12,7 +24,25 @@ h2::before{
     left: 0;
     width: 0;
     height: 100%;
-    color: #fff;
+    /* color: #fff; */
+    /* background-image:linear-gradient(45deg, #f6a8d8,#0f0101); */
+    background-color: #CA4246;
+    background: conic-gradient(
+        #EA0E68 16.666%, 
+        #E16541 16.666%, 
+        #EA0E68 33.333%, 
+        #0f0101 33.333%, 
+        #0f0101 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #f6a8d8 66.666%, 
+        #f6a8d8 83.333%, 
+        #A64A4A 83.333%
+    );
+    background-size: 57%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
     -webkit-text-stroke: 0vw #0f0101;
     border-right: 2px solid #f6a8d8;
     overflow: hidden;
@@ -25,16 +55,25 @@ h2::before{
     70%,90%{
         width: 100%;
     }
-
 }
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-image: url(../../public/hero.jpg); */
-    background: #0f0101;
-    height: 90vh;
-    width: 100%;
+.btn{
+  padding: 10px;
+  color: #fff;
+  background-image:linear-gradient(45deg, #f6a8d8,#0f0101);
+  outline: none;
+  border: none;
+  transition: .5s;
+}
+.btn:hover{
+   padding: 12px;
+}
+.btnlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btnlink:hover{
+    color: #fff;
 }
 .wave{
     position: absolute;

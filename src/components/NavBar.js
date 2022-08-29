@@ -45,7 +45,7 @@ const NavBar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-mainbg">
         <NavLink className="navbar-brand navbar-logo" to="/" exact>
-          Executive Matchmaking
+          <img src="../exlogo.png" alt="logo" width={50} height={50}/>
         </NavLink>
 
         <button
@@ -82,9 +82,6 @@ const NavBar = () => {
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/Membership" exact> Membership pricing</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/Process" exact> Process </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/Contact" exact> Contact Us </NavLink>
