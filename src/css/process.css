@@ -45,22 +45,22 @@ html{
     position: relative;
   }
   .wrapper .row .c-1{
-      background: #42a5f5;
+      background: #EA0E68;
   }
   .wrapper .row .c-2{
-      background: #000;
+      background: #0f0101;
   }
   .wrapper .row .c-3{
-      background: #ffa726;
+      background: #E16541;
   }
   .wrapper .row .c-4{
-      background: #66bb6a;
+      background: #A64A4A;
   }
   .wrapper .row .c-5{
-      background: #ef5350;
+      background: #8B9862;
   }
   .wrapper .row .c-6{
-      background: #283593;
+      background: #f6a8d8;
   }
   .wrapper .row section::before{
     position: absolute;
@@ -73,22 +73,22 @@ html{
     transform: rotate(45deg);
   }
   .wrapper .row .c-1::before{
-      background: #42a5f5;
+      background: #EA0E68 ;
   }
   .wrapper .row .c-2::before{
-      background: #000;
+      background: #0f0101;
   }
   .wrapper .row .c-3::before{
-      background: #ffa726;
+      background: #E16541;
   }
   .wrapper .row .c-4::before{
-      background: #66bb6a;
+      background: #A64A4A;
   }
   .wrapper .row .c-5::before{
-      background: #ef5350;
+      background: #8B9862;
   }
   .wrapper .row .c-6::before{
-      background: #283593;
+      background: #f6a8d8;
   }
   .row-1 section::before{
     left: -7px;
@@ -99,7 +99,7 @@ html{
   .row section .icon,
   .center-line .scroll-icon{
     position: absolute;
-    background: #2196f3;
+    background: #0f0101;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -160,9 +160,6 @@ html{
   }
   
   @media(max-width: 790px){
-    /* .o-h1{
-      margin-top: 400px;
-    } */
     .wrapper .center-line{
       left: 40px;
     }

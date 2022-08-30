@@ -10,7 +10,7 @@ function Process() {
   return (
     <div>
         <div class="o-h1">
-        <h1>Our Services</h1>
+        <h1>Our Process</h1>
       </div>
 
       <div class="wrapper">
