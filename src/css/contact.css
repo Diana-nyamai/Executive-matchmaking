@@ -1,6 +1,6 @@
 .contact{
     height: 100vh;
-    background-image: url('../../public/contact.jpg');
+    background-color: #0f0101;
     background-size: cover;
     position: relative;
 }

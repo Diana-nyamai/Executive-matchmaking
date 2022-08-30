@@ -1,6 +1,6 @@
 .membership{
     height: 100vh;
-    background-image: url('../../public/pricing.jpg');
+    background-color: #0f0101;
     background-size: cover;
     position: relative;
 }
