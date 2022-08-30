@@ -1,5 +1,5 @@
 import './App.css';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 import { Routes, Route} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Home from './pages/Home';

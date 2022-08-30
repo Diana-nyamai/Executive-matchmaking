@@ -54,7 +54,7 @@ function Process() {
   return (
     <div>
         <div class="o-h1">
-        <h1>Our Process</h1>
+        <h3>Our <span>Process</span> </h3>
       </div>
 
       <div class="wrapper">
