@@ -1,0 +1,10 @@
+.contact{
+    height: 100vh;
+    background-image: url('../../public/contact.jpg');
+    background-size: cover;
+    position: relative;
+}
+.contact svg{
+    position: absolute;
+    bottom: 0;
+}

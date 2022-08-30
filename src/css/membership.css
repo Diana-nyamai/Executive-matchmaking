@@ -1,0 +1,10 @@
+.membership{
+    height: 100vh;
+    background-image: url('../../public/pricing.jpg');
+    background-size: cover;
+    position: relative;
+}
+.membership svg{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,10 @@
+.about{
+    height: 100vh;
+    background-image: url('../../public/about.jpg');
+    background-size: cover;
+    position: relative;
+}
+.about svg{
+    position: absolute;
+    bottom: 0;
+}
