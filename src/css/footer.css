@@ -73,10 +73,12 @@ svg{
 .links{
     color: #fff;
     text-decoration: none;
+    transition: transform .5s;
 }
 .links:hover{
     text-decoration: underline;
     color: #f6a8d8;
+    transform: translateY(2px);
 }
 .col form{
     display: flex;
