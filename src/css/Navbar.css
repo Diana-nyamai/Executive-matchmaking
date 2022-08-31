@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-i{
-  margin-right: 10px;
-}
 .navbar-logo {
   padding: 15px;
   color: #fff;
@@ -21,9 +18,7 @@ i{
   padding: 0px;
   margin: 0px;
 }
-#navbarSupportedContent ul li a i {
-  margin-right: 10px;
-}
+
 #navbarSupportedContent li {
   list-style-type: none;
   float: left;

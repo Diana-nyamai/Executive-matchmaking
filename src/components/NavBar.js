@@ -41,6 +41,26 @@ const NavBar = () => {
       }, 500);
     });
   }, []);
+
+  const navcontent = [
+    {
+      link: '/',
+      title: 'HOME'
+    },
+    {
+      link: '/About',
+      title: 'ABOUT'
+    },
+    {
+      link: '/Membership',
+      title: 'MEMBERSHIP PRICING'
+    },
+    {
+      link: '/Contact',
+      title: 'CONTACT'
+    }
+
+  ]
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-mainbg">
@@ -71,21 +91,12 @@ const NavBar = () => {
               <div className="left"></div>
               <div className="right"></div>
             </div>
-
-            <li className="nav-item active">
-              <NavLink className="nav-link" to="/" exact> Home </NavLink>
+            
+             {navcontent.map(navc =>
+               <li className="nav-item">
+              <NavLink to={navc.link} exact> {navc.title} </NavLink>
             </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/About" exact> About</NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/Membership" exact> Membership pricing</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/Contact" exact> Contact Us </NavLink>
-            </li>
+              )}
           </ul>
         </div>
       </nav>
