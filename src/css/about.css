@@ -32,3 +32,35 @@ h1{
     -webkit-text-fill-color: transparent; 
     -webkit-text-stroke: 0vw #0f0101;
 }
+
+.about-container{
+    margin: 50px auto;
+    padding: 0 200px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+h5{
+    text-align: center;
+}
+/* .page-link{
+    margin: 200px auto;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../public/pricing.jpg');
+    background-size: cover;
+} */
+.acontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-content1 ul{
+    padding: 0 70px;
+}
+.a-content1 li{
+    font-size: 14px;
+    list-style-type:square;
+}
