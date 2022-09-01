@@ -127,3 +127,8 @@
 .button a:hover{
     transform: scale(0.98);
 }
+@media all and (max-width: 760px){
+    .membership h1{
+        font-size: 30px;
+    }
+}
