@@ -102,24 +102,33 @@ svg{
     background: transparent;
     border: none;
     /* border: 1px solid white; */
-    box-shadow: inset -.5vh -.5vh .7vh #231919,inset .5vh .5vh .7vh #231919;
+    box-shadow: inset -.5vh -.5vh .7vh #231919,
+                inset .5vh .5vh .7vh #231919;
 }
 .col .submit{
-    background: #E87DA4;
+    /* background: #E87DA4; */
+    background: transparent;
     outline: none;
     border: none;
     border-radius: 15px;
     box-shadow: none;
+    box-shadow: inset -.5vh -.5vh .7vh #231919,
+                inset .5vh .5vh .7vh #231919;
     transition: transform .5s;
     
 }
 .col .submit:hover{
     cursor: pointer;
     transform: translateY(2px);
+    color: #f6a8d8;
 }
 .footer-copy-right{
     background-color: #0f0101;
     color: #fff;
     display: flex;
     justify-content: center;
+}
+.footer-copy-right a{
+    color: #fff;
+    text-decoration: none;
 }

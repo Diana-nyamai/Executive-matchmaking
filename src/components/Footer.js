@@ -20,8 +20,8 @@ function Footer() {
               <strong className='site-name'>EXECUTIVE MATCHMAKING</strong>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ut pariatur, quia magni nesciunt ipsam dolore, ad ratione quasi expedita nobis eveniet excepturi incidunt optio. Sequi suscipit minima molestias accusantium.</p>
               <div>
-                <Link to="#" className='tel'>+2547 12 345 678</Link>
-                <Link to="#" className='mail'>info@gmail.com</Link>
+                Phone: <Link to="#" className='tel'>+2547 12 345 678</Link><br/>
+                Email:<Link to="#" className='mail'>info@gmail.com</Link>
               </div>
               <div className="socials">
               <Link to="#" className='bicon'><i class='fa-brands fa-telegram'></i></Link>
@@ -47,35 +47,18 @@ function Footer() {
               </div>
               <div className="form">
               <form onSubmit={handleSubmit}>
-                <input
-                  id="email"
-                  type="email" 
-                  name="email"
-                  placeholder='Email address...'
-                />
-                <ValidationError 
-                  prefix="Email" 
-                  field="email"
-                  errors={state.errors}
-                />
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder='Enter your message...'
-                />
-                <ValidationError 
-                  prefix="Message" 
-                  field="message"
-                  errors={state.errors}
-                />
+                <input id="email" type="email" name="email" placeholder='Email address...'/>
+                <ValidationError prefix="Email" field="email" errors={state.errors}/>
+                <textarea id="message" name="message" placeholder='Enter your message...'/>
+                <ValidationError prefix="Message" field="message" errors={state.errors}/>
                 <input className='submit' type="submit" value="Send" />
-            </form>
+             </form>
               </div>
             </div>
           </div>
         </div>
         <div className="footer-copy-right">
-            <small>Made with <i style={{color:'red'}} class="fa fa-heart"></i>by Diana Nyamai </small>
+            <small>Made with <i style={{color:'red'}} class="fa fa-heart"></i> by <a href="tel:+254798777814">Diana Nyamai</a></small>
           </div>
       </footer>
     </>
