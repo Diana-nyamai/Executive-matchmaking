@@ -6,35 +6,32 @@ function Membership() {
   const pricing = [
     {
       title: 'basic',
-      price: '10,000',
-      f1:'Lorem ipsum dolor sit',
-      f2: 'Lorem ipsum dolor sit',
-      f3: 'Lorem ipsum dolor sit',
-      f4: 'Lorem ipsum dolor sit',
-      f5: 'Lorem ipsum dolor sit',
-      f6: 'Lorem ipsum dolor sit'
+      price: '15,000',
+      f1:'This is best for Junior executives',
+      f2: 'You be matched with men/women in the same class',
+      f3: 'Your first date is self planned however we can assist at a fee',
+      f4: 'This membership is valid for 2 months',
+      f5: 'Two prequalified dates',
+      
     },
     {
       title: 'standard',
-      price: '10,000',
-      f1:'Lorem ipsum dolor sit',
-      f2: 'Lorem ipsum dolor sit',
-      f3: 'Lorem ipsum dolor sit',
-      f4: 'Lorem ipsum dolor sit',
-      f5: 'Lorem ipsum dolor sit',
-      f6: 'Lorem ipsum dolor sit'
+      price: '35,000',
+      f1:'You be matched with men/women in the same class',
+      f2: 'Your first date is planned ',
+      f3: 'This membership is valid for 2 months',
+      f4: 'Four prequalified dates',
     },
     {
       class: 'selected',
       recomend: 'recommended',
       title: 'premium',
-      price: '10,000',
-      f1:'Lorem ipsum dolor sit',
-      f2: 'Lorem ipsum dolor sit',
-      f3: 'Lorem ipsum dolor sit',
-      f4: 'Lorem ipsum dolor sit',
-      f5: 'Lorem ipsum dolor sit',
-      f6: 'Lorem ipsum dolor sit'
+      price: '100,000',
+      f1:'This is best for top executives',
+      f2: 'You will be matched with men/women in the same class',
+      f3: 'You get a physical meeting with your individual match maker.',
+      f4: '2 planned dates ',
+      f5: 'This membership is valid for 6 months',
     }
   ]
   return (

@@ -95,11 +95,13 @@
 }
 .pricing-features li{
     display: block;
+    font-size: 13px;
     width: 80%;
     height: 40px;
     margin: 10px auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    line-height: 40px;
+    /* border: 1px solid blue; */
+    /* line-height: 40px; */
 }
 .button{
     width: 140px;
