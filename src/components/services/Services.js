@@ -20,25 +20,19 @@ function Services() {
     },
     {
       key: 2,
-      title: 'Date & Relationship Coaching',
+      title: 'Date arrangement',
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur ipsa maiores minima sit beatae commodi unde officiis, in recusandae. Doloribus labore, fugit voluptate explicabo sit quibusdam ex accusantium minus?"
     },
     {
       key: 3,
-      title: 'LS Professional Photography',
+      title: 'full concierge services',
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur ipsa maiores minima sit beatae commodi unde officiis, in recusandae. Doloribus labore, fugit voluptate explicabo sit quibusdam ex accusantium minus?"
     },
     {
       key: 4,
-      title: 'Full Concierge Service',
+      title: 'Date follow up',
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur ipsa maiores minima sit beatae commodi unde officiis, in recusandae. Doloribus labore, fugit voluptate explicabo sit quibusdam ex accusantium minus?"
-    },
-    {
-      key: 5,
-      title: 'Date Follow Up',
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur ipsa maiores minima sit beatae commodi unde officiis, in recusandae. Doloribus labore, fugit voluptate explicabo sit quibusdam ex accusantium minus?"
-    }
-    
+    }  
   ]
   return (
     <>
