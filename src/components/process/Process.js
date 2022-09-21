@@ -24,21 +24,21 @@ function Process() {
       {
         row: 'row row-2',
         color: 'c-2',
-        icon: 'fa fa-chalkboard',
+        icon: 'fa fa-search',
         title: 'Search and vetting potential matches',
         text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deleniti, voluptatibus dolores fugiat temporibus quia, laudantium veritatis in eum dolorum error dolore neque autem ut consectetur mollitia libero nam officia.'
       },
       {
         row: 'row row-1',
         color: 'c-3',
-        icon: 'fa fa-search',
+        icon: 'fa fa-handshake',
         title: 'Meet your match',
         text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deleniti, voluptatibus dolores fugiat temporibus quia, laudantium veritatis in eum dolorum error dolore neque autem ut consectetur mollitia libero nam officia.'
       },
       {
         row: 'row row-2',
         color: 'c-4',
-        icon: 'fa fa-meetup',
+        icon: 'fa fa-comment',
         title: 'Afterdate feedback',
         text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deleniti, voluptatibus dolores fugiat temporibus quia, laudantium veritatis in eum dolorum error dolore neque autem ut consectetur mollitia libero nam officia.'
       },
