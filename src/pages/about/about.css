@@ -75,7 +75,11 @@ h5{
 }
 .a-content1 li{
     font-size: 14px;
-    list-style-type:square;
+    list-style-type:decimal;
+    margin-bottom: 15px;
+}
+.title{
+    font-weight: 500;
 }
 @media all and (max-width: 760px){
     h1{
