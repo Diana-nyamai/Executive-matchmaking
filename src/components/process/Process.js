@@ -41,14 +41,7 @@ function Process() {
         icon: 'fa fa-comment',
         title: 'Afterdate feedback',
         text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deleniti, voluptatibus dolores fugiat temporibus quia, laudantium veritatis in eum dolorum error dolore neque autem ut consectetur mollitia libero nam officia.'
-      },
-      // {
-      //   row: 'row row-1',
-      //   color: 'c-5',
-      //   icon: 'fa fa-comment',
-      //   title: 'after date feedback',
-      //   text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deleniti, voluptatibus dolores fugiat temporibus quia, laudantium veritatis in eum dolorum error dolore neque autem ut consectetur mollitia libero nam officia.'
-      // }
+      }
     ];
    
   return (
