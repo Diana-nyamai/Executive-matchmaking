@@ -2,13 +2,13 @@ import './App.css';
 import { BackTop } from 'antd';
 // import 'antd/dist/antd.css';
 import { Routes, Route} from "react-router-dom";
-import NavBar from './components/NavBar';
+import NavBar from './components/navbar/NavBar';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Membership from './pages/Membership';
-import Process from './pages/Process';
-import Footer from './components/Footer';
+import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
+import Membership from './pages/membership/Membership';
+import Process from './components/process/Process';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
