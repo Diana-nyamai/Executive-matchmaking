@@ -9,6 +9,7 @@ import About from './pages/about/About';
 import Membership from './pages/membership/Membership';
 import Process from './components/process/Process';
 import Footer from './components/footer/Footer';
+import FormPage from './pages/forrm/FormPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/About" exact element={<About />} />
         <Route path="/Membership" exact element={<Membership />} />
+        <Route path="/FormPage" exact element={<FormPage/>}/>
         <Route path="/Process" exact element={<Process />} />
         <Route path="/contact" exact element={<Contact />} />
     </Routes>

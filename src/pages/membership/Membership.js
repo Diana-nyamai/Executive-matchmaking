@@ -1,6 +1,6 @@
 import React from 'react'
 import './membership.css'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Membership() {
   const pricing = [
@@ -57,7 +57,7 @@ function Membership() {
           <li>{prices.f5}</li>
           <li>{prices.f6}</li>
         </ul>
-        {/* <div className="button"><Link to="#">Get Started </Link></div> */}
+        <div className="button"><Link to="/FormPage" exact>Get Started </Link></div>
       </div>
     </div>
         )}
