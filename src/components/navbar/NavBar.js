@@ -56,9 +56,14 @@ const NavBar = () => {
       title: 'MEMBERSHIP PRICING'
     },
     {
+      link: '/Createprofile',
+      title: 'CREATE PROFILE'
+    },
+    {
       link: '/Contact',
       title: 'CONTACT'
     }
+   
 
   ]
   return (
