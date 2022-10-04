@@ -9,7 +9,7 @@
     width: 100%;
     position: relative;
 }
-h2{
+.heroh2{
     position: relative;
     top: -90px;
     color: #0f0101;
@@ -17,7 +17,7 @@ h2{
     -webkit-text-stroke:0.05vw #7c5d70;
     text-transform: uppercase;
 }
-h2::before{
+.heroh2::before{
     content: attr(data-text);
     position: absolute;
     top: 0;
