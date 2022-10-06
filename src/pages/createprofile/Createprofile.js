@@ -1,57 +1,25 @@
 import React from 'react'
 import './createprofile.css'
 import { useForm, ValidationError } from '@formspree/react';
+import {inputformats} from './Createprofiledata';
 
 function Createprofile() {
   const [state, handleSubmit] = useForm("xjvzbnpq");
   if (state.succeeded) {
-    return <p>message sent successfully!</p>;
+    return <p>Profile created successfully!</p>;
 } 
- const inputformats = [
-  {
-    id: "email",
-    type: "email",
-    name: "email",
-    placeholder: "Email address...",
-    prefix: "Email",
-    field: "email"
- },
- {
-  id: "email",
-  type: "email",
-  name: "email",
-  placeholder: "Email address...",
-  prefix: "Email",
-  field: "email"
-},
-{
-  id: "email",
-  type: "email",
-  name: "email",
-  placeholder: "Email address...",
-  prefix: "Email",
-  field: "email"
-},
-{
-  id: "email",
-  type: "email",
-  name: "email",
-  placeholder: "Email address...",
-  prefix: "Email",
-  field: "email"
-},
-
-]
+ 
   return (
     <div className='createprofile'>
       <div className="createprofilewrapper">
         <h2 className='createprofiletitle'>Create profile</h2>
-       <div className="creteprofileform">
-       <form onSubmit={handleSubmit}>
+       <div className='createpformwrapper'>
+       <form className="createprofileform" onSubmit={handleSubmit}>
            {inputformats.map(inputformat =>
-            <div>
-              <input id="email" type="email" name="email" placeholder='Email address...'/>
-                <ValidationError prefix="Email" field="email" errors={state.errors}/>
+            <div className='inputbox'>
+              <span className='label'>{inputformat.field}</span>
+              <input  id={inputformat.id} type={inputformat.type} name={inputformat.name} placeholder={inputformat.placeholder}/>
+                <ValidationError prefix={inputformat.prefix} field={inputformat.field} errors={state.errors}/>
             </div>
             )}
                 
