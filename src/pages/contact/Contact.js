@@ -3,7 +3,7 @@ import './contact.css'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-  const [state, handleSubmit] = useForm("xjvzbnpq");
+  const [state, handleSubmit] = useForm("xnqrvejv");
   if (state.succeeded) {
     return <p>message sent successfully!</p>;
 }
@@ -18,10 +18,10 @@ function Contact() {
       {/* left box */}
       <div className="contact-box1">
           <ul>
-            <li><i className='fa fa-phone'></i> <a href="tel:+254712345678"> +2547 12 345 678</a></li>
-            <li><i className='fa fa-envelope'></i><a href="mailto:info@gmail.com"> info@gmail.com</a></li>
-            <li><i className='fa-brands fa-telegram'></i><a href="tel:+254712345678"> +2547 12 345 678</a></li>
-            <li><i className='fa-brands fa-whatsapp'></i><a href="tel:+254712345678"> +2547 12 345 678</a></li>
+            <li><i className='fa fa-phone'></i> <a href="tel:+254716941192"> +2547 16 941 192</a></li>
+            <li><i className='fa fa-envelope'></i><a href="mailto:admin@executivematchmaker.co.ke"> admin@executivematchmaker.co.ke</a></li>
+            <li><i className='fa-brands fa-telegram'></i><a href="tel:+254712345678"> +2547 16 941 192</a></li>
+            <li><i className='fa-brands fa-whatsapp'></i><a href="https://wa.me/+254716941192"> +2547 16 941 192</a></li>
             
             
           </ul>

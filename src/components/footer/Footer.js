@@ -4,7 +4,7 @@ import './footer.css'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Footer() {
-  const [state, handleSubmit] = useForm("xjvzbnpq");
+  const [state, handleSubmit] = useForm("xnqrvejv");
   if (state.succeeded) {
     return <p>message sent successfully!</p>;
 }
@@ -18,10 +18,9 @@ function Footer() {
             <div className="col">
             <img src="../exlogo.png" alt="logo" width={50} height={50}/>
               <strong className='site-name'>EXECUTIVE MATCHMAKING</strong>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ut pariatur, quia magni nesciunt ipsam dolore, ad ratione quasi expedita nobis eveniet excepturi incidunt optio. Sequi suscipit minima molestias accusantium.</p>
               <div>
-                Phone: <Link to="#" className='tel'>+2547 12 345 678</Link><br/>
-                Email:<Link to="#" className='mail'>info@gmail.com</Link>
+                Phone: <Link to="tel:+254716941192" className='tel'>+2547 16 941 192</Link><br/>
+                Email:<Link to="mailto:admin@executivematchmaker.co.ke" className='mail'>admin@executivematchmaker.co.ke</Link>
               </div>
               <div className="socials">
               <Link to="#" className='bicon'><i class='fa-brands fa-telegram'></i></Link>
