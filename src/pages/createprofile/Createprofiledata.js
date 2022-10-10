@@ -101,8 +101,8 @@ export const inputformats = [
   {
     id: "height",
     type: "text",
-    name: "height",
-    label: "Your Height",
+    name: "height(cm)",
+    label: "Your Height (cm)",
     placeholder: "Height...",
     prefix: "height",
     field: "height"
@@ -110,21 +110,21 @@ export const inputformats = [
   {
     id: "weight",
     type: "text",
-    name: "weight",
-    label: "Your Weight",
+    name: "weight(kg)",
+    label: "Your Weight (kg)",
     placeholder: "Weight...",
     prefix: "weight",
     field: "weight"
   },
-  {
-    id: "education",
-    type: "text",
-    name: "education",
-    label: "Your Education Level",
-    placeholder: "Heighest Education Level. eg.degree in...",
-    prefix: "education",
-    field: "weight"
-  },
+  // {
+  //   id: "education",
+  //   type: "text",
+  //   name: "education",
+  //   label: "Your Education Level",
+  //   placeholder: "Heighest Education Level. eg.degree in...",
+  //   prefix: "education",
+  //   field: "weight"
+  // },
   {
     id: "religion",
     type: "text",

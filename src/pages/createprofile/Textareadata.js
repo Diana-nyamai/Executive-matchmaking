@@ -1,32 +1,32 @@
 export const textareadata = [
     {
-        id: "describe",
-        name: "describe",
-        placeholder: "Describe a bit about yourself...hobbies etc",
+        id: "describeidealrelationship",
+        name: "describeidealrelationship",
+        placeholder: "Describe your ideal relationship",
         prefix: "describe",
         field: "describe"
     },
     {
         id: "relationshipgoals",
         name: "relationshipgoals",
-        placeholder: "Describe your relationship goals",
+        placeholder: "List down your non-negotiable",
         prefix: "relationshipgoals",
         field: "relationshipgoals"
     } ,
     {
         title: "Describe your Partner",
-        id: "describepartner",
-        name: "describepartner",
-        placeholder: "Describe the type of person you would like to meet",
-        prefix: "describepartner",
-        field: "describepartner"
+        id: "physicalappearance",
+        name: "physicalappearance",
+        placeholder: "Describe the physical appearance of the person you would like to meet",
+        prefix: "physicalappearance",
+        field: "physicalappearance"
     } ,
     {
-        id: "idealperson",
-        name: "idealperson",
-        placeholder: "Describe the ideal person you are lookig to meet. WHta quaities are important?",
-        prefix: "idealperson",
-        field: "idealperson"
+        id: "idealdate",
+        name: "idealdate",
+        placeholder: "Describe your first ideal date",
+        prefix: "idealdate",
+        field: "idealdate"
     } ,
     {
         id: "dealbreaker",
@@ -41,5 +41,12 @@ export const textareadata = [
         placeholder: "Describe tribe of prefered mate",
         prefix: "tribemate",
         field: "tribemate"
-    } 
+    },
+    {
+        id: "weakness/strength",
+        name: "weakness/strength",
+        placeholder: "What is your greatest weakness/strength",
+        prefix: "weakness/strength",
+        field: "weakness/strength"
+    },
 ]

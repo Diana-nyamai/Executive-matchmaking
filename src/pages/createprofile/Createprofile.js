@@ -13,7 +13,7 @@ function Createprofile() {
   return (
     <div className='createprofile'>
       <div className="createprofilewrapper">
-        <h2 className='createprofiletitle'>Create profile</h2>
+        <h2 className='createprofiletitle'>Create Profile</h2>
        <div>
        <form className="createprofileform" onSubmit={handleSubmit} enctype="multipart/form-data">
            {inputformats.map(inputformat =>
@@ -23,6 +23,14 @@ function Createprofile() {
                 <ValidationError prefix={inputformat.prefix} field={inputformat.field} errors={state.errors}/>
             </div>
             )}
+            <div className="cpoptions">
+              <span>Sexual orientation</span>
+            <select name='sexualorientation' id='sexualorientation'>
+              <option value="gay">gay</option>
+              <option value="Straight">Straight</option>
+            </select>
+            </div>
+            
                <div className="textareacontainer">
                 {textareadata.map(textarea =>
                   <div className='textareasubcontainer'>
