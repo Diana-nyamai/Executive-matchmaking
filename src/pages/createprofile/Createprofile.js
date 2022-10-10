@@ -3,6 +3,7 @@ import './createprofile.css'
 import { useForm, ValidationError } from '@formspree/react';
 import {inputformats} from './Createprofiledata';
 import {textareadata} from './Textareadata';
+import {Selectdata} from './Selectdata';
 
 function Createprofile() {
   const [state, handleSubmit] = useForm("xnqrvejv");
@@ -23,13 +24,21 @@ function Createprofile() {
                 <ValidationError prefix={inputformat.prefix} field={inputformat.field} errors={state.errors}/>
             </div>
             )}
-            <div className="cpoptions">
-              <span>Sexual orientation</span>
-            <select name='sexualorientation' id='sexualorientation'>
-              <option value="gay">gay</option>
-              <option value="Straight">Straight</option>
+
+            {Selectdata.map(select =>
+              <div className="cpoptions">
+              <span>{select.label}</span>
+            <select className='select' name={select.name} id={select.id}>
+              <option selected>select an option</option>
+              <option value={select.value1}>{select.value1}</option>
+              <option value={select.value2}>{select.value2}</option>
+              <option value={select.value3}>{select.value3}</option>
+              <option value={select.value4}>{select.value4}</option>
+              <option value={select.value5}>{select.value5}</option>
             </select>
             </div>
+              )}
+            
             
                <div className="textareacontainer">
                 {textareadata.map(textarea =>

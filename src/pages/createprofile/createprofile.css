@@ -26,6 +26,18 @@
     border: 1px solid #333;
     border-radius: 10px;
 }
+/* select data */
+.cpoptions{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.select{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+}
 /* textarea section */
 .textareacontainer{
     width: 100%;
@@ -61,4 +73,20 @@
     outline: none;
     padding: 15px;
     border: none;
+}
+@media all and (max-width: 600px) {
+    .cpinput{
+        min-width: 300px;
+    }
+    .select{
+        width: 300px;
+    }
+}
+@media all and (max-width: 300px){
+    .cpinput{
+        min-width: 200px;
+    }
+    .select{
+        width: 200px;
+    }
 }
