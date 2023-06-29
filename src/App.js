@@ -1,13 +1,11 @@
 import './App.css';
 import { BackTop } from 'antd';
-// import 'antd/dist/antd.css';
-import { Routes, Route, Router} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import NavBar from './components/navbar/NavBar';
 import Home from './pages/Home';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Membership from './pages/membership/Membership';
-// import FormPage from './pages/forrm/FormPage';
 import Process from './components/process/Process';
 import Footer from './components/footer/Footer';
 import Createprofile from './pages/createprofile/Createprofile';
@@ -16,7 +14,7 @@ import Createprofile from './pages/createprofile/Createprofile';
 function App() {
   return (
    <div> 
-    <Router basename="/Executive-matchmaking">
+
     <BackTop />
     <NavBar/>
     {/* routing of different pages */}
@@ -30,7 +28,6 @@ function App() {
         <Route path="/contact" exact element={<Contact />} />
     </Routes>
     <Footer/>
-    </Router>
    </div>
   );
 }
