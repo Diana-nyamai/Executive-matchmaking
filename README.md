@@ -6,7 +6,7 @@ Welcome to the Executive Matchmaking project! This web application was developed
 
 ## Live Demo
 
-Checkout the live version of the Executive Matchmaking website [Here](https://diana-nyamai.github.io/Executive-matchmaking/)
+Checkout the live version of the Executive Matchmaking website [Here](https://executivematchmaking.netlify.app/)
 
 ## Getting Started
 
